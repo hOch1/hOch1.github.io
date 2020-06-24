@@ -1,0 +1,117 @@
+.background{
+    /* 폰트 */
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 메뉴 */
+.nav{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F9FCE0;
+    width: 70%;
+    height: 70px;
+    position: relative;
+}
+.menu{
+    display: inline-block;
+    padding: 1%;
+    font-weight: bold;
+    color: #AFBB88;
+    text-shadow: 2px 2px 6px #BEB4A8;
+    text-decoration: none;
+    display:inline-block; 
+    margin:0;
+    text-transform:uppercase;
+}
+
+/* 메뉴 hover설정 */
+.menu::after{
+    display:block;
+    content: '';
+    border-bottom: solid 5px #545836;
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.menu:hover:after{ 
+    transform: scaleX(1); 
+}
+
+/* 메뉴 아이콘 */
+.fa-github{
+    font-size: 40px;
+    color:  #545836;
+    text-shadow: none;
+    padding-right: 5px;
+}
+.fa-file{
+    font-size: 40px;
+    color:  #545836;
+    text-shadow: none;
+    padding-right: 5px;
+}
+.fa-blog{
+    font-size: 40px;
+    color:  #545836;
+    text-shadow: none;
+    padding-right: 5px;
+}
+.fa-id-card-alt{
+    font-size: 40px;
+    color:  #545836;
+    text-shadow: none;
+    padding-right: 5px;
+}
+.fa-envelope{
+    font-size: 40px;
+    color:  #545836;
+    text-shadow: none;
+    padding-right: 5px;
+}
+.fa-clone{
+    font-size: 40px;
+    color:  #545836;
+    text-shadow: none;
+    padding-right: 5px;
+}
+
+/* 본문 */
+.main{
+    position: relative;
+    margin: 0 auto;
+    background-image: url(../img/background.jpg);
+    height: 100vh;
+    width: 70%;
+    background-size: cover;
+
+}
+.img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.text{
+    width: 100%;
+    background-color: #AFBB88;
+    background-color: rgba(190, 180, 168, 0.6);
+
+}
+.main .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #545836;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.fa-pagelines{
+    color: #e5eec9;
+}
+p{
+    padding: 0;
+    margin: 2.5%;
+}
+
+
