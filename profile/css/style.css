@@ -1,0 +1,52 @@
+#img {
+  text-align: center;
+}
+#prd {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+#N {
+  font-size: 18px;
+  font-weight: bold;
+  list-style: none;
+  list-style-type: none;
+}
+.P1{
+  text-align: center;
+}
+.P2{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+.family{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fm{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home {
+  text-align: center;
+}
+table, caption, td, th{
+  border: 1px solid;
+}
+table{
+  width: 500px;
+  height: 150px;
+}
+caption{
+  font-size: 18px;
+  font-weight: bold;
+}
+h1, h2{
+  font-size: 25px;
+}
+pre {
+  font-size: 15px
+}

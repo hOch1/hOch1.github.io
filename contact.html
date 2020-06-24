@@ -1,0 +1,98 @@
+<!-- hw07.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Font awesome Script Code -->
+    <script src="https://kit.fontawesome.com/996194efb4.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper{
+            margin: 0 auto;
+            width: 500px;
+        }
+        /* 제목 설정 */
+        h1{
+            text-align: center;
+        }
+        #title{
+            margin: auto;
+            background: rgb(155, 241, 155);
+            width: 500px;
+        }
+        /* 리스트 설정 */
+        ul{
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 3px solid rgb(119, 240, 119);
+            padding: 5px 30px 60px 30px;
+        }
+        li{
+            list-style-type: none;
+        }
+        /* Input 설정 */
+        input[type="submit"], input[type="reset"]{
+            float:right;
+            height: 30px;
+            margin-top: 10px;
+        }
+        input[type="submit"]{
+            margin-right: 10px;
+        }
+        input[name="email"]{
+            width: 150px;
+        }
+        input[type="text"]{
+            width: 150px;
+        }
+        input[type="checkbox"]{
+            margin-left: 70px;
+            width: 50px;
+        }
+        textarea{
+            width: 500px;
+            height: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 본문 -->
+    <div class="wraaper">
+        <div id="title">
+            <!-- 메일 아이콘 -->
+            <h1><i class="fas fa-envelope">메일 보내기</i></h1> 
+        </div>
+        <form>
+            <div>
+                <ul class="mail_content">
+                    <li>
+                        <label> 이름 : <input type="text" name="name"></label>
+                        <input type="checkbox" value="익명">익명
+                    </li>
+                    <li class="email">
+                        <label> 이메일 : <input type="text" name="email"></label> @
+                        <select style="width: 150px;">
+                            <option selected>naver.com</option>
+                            <option>gmail.com</option>
+                            <option>daum.net</option>
+                            <option>직접입력</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label> 제목 : <input type="text" name="title" style="width: 400px;"></label>
+                    </li>
+                    <li>
+                        <label> 메세지 : <textarea name="context"></textarea></label>
+                    </li>
+                    <li><input type="reset" value="다시쓰기"></li>
+                    <li><input type="submit" value="보내기"></li>
+                </ul>
+            </div>
+        </form>
+    </div>
+    <!-- 본문 끝 -->
+</body>
+</html>

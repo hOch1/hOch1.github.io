@@ -1,0 +1,46 @@
+*{
+  font-family: 'Sunflower', sans-serif;
+}
+img{
+    height: 640px;
+    width: 480px;
+    border: 1px solid;
+  }
+  a{text-decoration: none;}
+  a:link{color: orange;}
+  a:visited{color: orange;}
+  h3, pre, h4{text-align: center;}
+  pre{
+    line-height: 35px;
+  }
+  h4{
+    font-size: 30px;
+  }
+  hr{
+    width: 50%;
+  }
+  h1{
+    font-weight: bold;
+  }
+  div{text-align: center;}
+  .books{
+  text-align: center;
+  margin: 0 auto;
+  }
+  .books_item{
+    display: inline-block;
+    margin: 50px;
+  }
+  #book_title{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #hr_re{
+    width: 20%;
+  }
+  #other{
+    color:#634646;
+    margin-right:30px;
+    font-size:20px;
+    font-weight: bold;
+  }

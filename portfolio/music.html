@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/portfoilo.css">
+    <!-- 본문 이미지 swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/996194efb4.js" crossorigin="anonymous"></script>
+    <!-- Goole WebFont -->
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+      <!-- header -->
+      <header>
+        <!-- 상단 메뉴 -->
+        <div class="menu">
+            <ul class="menu-list">
+                <li><a href="../portfolio.html">Home</a></li>
+                <li><a href="movie.html">영화</a>
+                    <ul class="sub-menu">
+                        <li><a href="movie/ordinarylove.html">가장보통의 연애</a></li>
+                        <li><a href="movie/whoami.html">후엠아이</a></li>
+                        <li><a href="movie/oneweek.html">원 위크</a></li>
+                    </ul>
+                </li>
+                <li><a href="webtoon.html">웹툰</a>
+                    <ul class="sub-menu">
+                        <li><a href="webtoon/itaewonclass.html">이태원 클라쓰</a></li>
+                        <li><a href="webtoon/ten.html">텐</a></li>
+                    </ul>
+                </li>
+                <li><a href="music.html">음악</a>
+                    <ul class="sub-menu">
+                        <li><a href="music/downtownbaby.html">Downtown Baby</a></li>
+                        <li><a href="music/11inmorning.html">11 In Morning</a></li>
+                        <li><a href="music/city.html">City</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+        <section>
+            <article class="main">
+                <!-- swiper 기본 형식 -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><a href="music/downtownbaby.html"><img src="img/downtownbaby.png"></a></div>
+                      <div class="swiper-slide"><a href="music/11inmorning.html"><img src="img/11inmorning.png"></a></div>
+                      <div class="swiper-slide"><a href="music/city.html"><img src="img/city.png"></a></div>
+                    </div>
+
+                      <!-- 이미지넘기기 버튼 -->
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>
+                    </div>
+            </article>
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="footer">
+                <ul class="footer-list">
+                    <li><a href="https://mrxx.tistory.com/" target="_blank"><i class="fas fa-blog"></i>Blog</a></li>
+                    <li><a href="https://github.com/hOch1" target="_blank"><i class="fab fa-github"></i>Github</a></li>
+                    <li><a href="https://www.instagram.com/01_jy_official/?hl=ko" target="_blank"><i class="fab fa-instagram"></i>InstarGram</a></li>
+                    <li><a href="https://www.facebook.com/wnsdud5534" target="_blank"><i class="fab fa-facebook"></i>FaceBook</a></li>
+                    <li><a href="../contact.html"><i class="fas fa-envelope"></i>Mail</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <!-- 이미지 넘기기 버튼 javascript -->
+    <script>
+    new Swiper('.swiper-container',{
+      navigation : {
+        nextEl : '.swiper-button-next',
+        prevEl : '.swiper-button-prev',
+      }
+    })
+    </script>
+</body>
+</html>
